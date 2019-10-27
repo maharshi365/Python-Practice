@@ -452,32 +452,32 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
     - [x] reverse() - reverses the list
     - [x] remove_value(value) - removes the first item in the list with this value
-  - [ ] Doubly-linked List
+  - [x] Doubly-linked List
     - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
     - No need to implement
 
 - ### Stack
 
-  - [] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-  - [] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-  - [] Will not implement. Implementing with array is trivial.
+  - [x] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+  - [x] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+  - [x] Will not implement. Implementing with array is trivial.
 
 - ### Queue
 
-  - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
-  - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-  - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
-  - [ ] Implement using linked-list, with tail pointer:
+  - [x] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+  - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+  - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+  - [x] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+  - [x] Implement using linked-list, with tail pointer:
     - enqueue(value) - adds value at position at tail
     - dequeue() - returns value and removes least recently added element (front)
     - empty()
-  - [ ] Implement using fixed-sized array:
+  - [x] Implement using fixed-sized array:
     - enqueue(value) - adds item at end of available storage
     - dequeue() - returns value and removes least recently added element
     - empty()
     - full()
-  - [ ] Cost:
+  - [x] Cost:
     - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
       because you'd need the next to last element, causing a full traversal each dequeue
     - enqueue: O(1) (amortized, linked list and array [probing])

@@ -47,13 +47,6 @@ class linked_list:
         self.head = self.head.next
         return val
 
-    def value_at(self,index):
-        if not self.empty():
-
-            curr = self.head
-            for i in range(index):
-                pass
-
 ll = linked_list()
 print(ll)
 ll.push_front(3)
