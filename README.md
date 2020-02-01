@@ -532,10 +532,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - binary search using recursion
 
 - ### Bitwise operations
-  - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-  - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-    - [ ] [words](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
-    - [ ] Good intro:
+  - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+  - [x] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+    - [x] [words](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
+    - [x] Good intro:
           [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
     - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
     - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -567,11 +567,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Trees - Notes & Background
 
-  - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
-  - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-  - basic tree construction
-  - traversal
-  - manipulation algorithms
+  - [x] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
+  - [x] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
+    - basic tree construction
+    - traversal
+    - manipulation algorithms
   - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
     - BFS notes:
       - level order (BFS, using queue)
